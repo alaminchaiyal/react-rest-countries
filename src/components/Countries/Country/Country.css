@@ -1,0 +1,12 @@
+.country{
+    margin: 20px;
+    padding: 10px;
+    background-color: magenta;
+}
+.countries-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.country img{
+    width: 150px;
+}
